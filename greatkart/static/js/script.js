@@ -58,3 +58,8 @@ $(document).ready(function() {
 }); 
 // jquery end
 
+$(document).ready(function(){
+    setTimeout(function(){
+        $('#message').fadeOut('fast');
+    },2000);
+}); // <-- time in milliseconds
